@@ -17,13 +17,16 @@ body > * {
     padding: 100px 10%;
 }
 
-.cta-button {
+.primary-button {
     background: var(--blue-accent);
     color: var(--off-white);
     padding: 10px 30px;
     font-size: 18px;
     border: 0;
     border-radius: 5px;
+}
+.white-border {
+    border: 1px solid var(--off-white);
 }
 /* Start header */
 header {
@@ -110,3 +113,14 @@ nav > ul {
     font-weight: 700;
 }
 /* End quote section */
+
+/* Start call to action */
+.cta-teaser-container {
+    background: var(--blue-accent);
+    color: var(--off-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+}
+/* End call to action */
