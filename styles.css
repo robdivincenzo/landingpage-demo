@@ -114,7 +114,7 @@ nav > ul {
 }
 /* End quote section */
 
-/* Start call to action */
+/* Start cta teaser */
 .cta-teaser-container {
     background: var(--blue-accent);
     color: var(--off-white);
@@ -123,4 +123,15 @@ nav > ul {
     align-items: center;
     padding: 30px 90px;
 }
-/* End call to action */
+/* End cta teaser */
+
+/* Start footer */
+footer {
+    background: var(--dark-bg);
+    color: var(--off-white);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+/* End footer */
