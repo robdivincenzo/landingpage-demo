@@ -3,29 +3,60 @@
 :root {
     --dark-bg: #1f2937;
     --blue-accent: #3882F6;
+    --off-white: #f9faf8;
 }
 
 body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 body > * {
     padding: 0 10%;
 }
+
+.cta-button {
+    background: var(--blue-accent);
+    color: var(--off-white);
+    padding: 10px 30px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+}
+/* Start Header Styles */
 header {
     background-color: var(--dark-bg);
-    color: #fff;
+    color: var(--off-white);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 header .logo {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
+    color: var(--off-white);
 }
 nav > ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
+/* End Header Styles */
+
+/* Start Hero Teaser Styles */
+.hero-teaser {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    background: var(--dark-bg);
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.right-teaser img {
+    height: auto;
+    width: 100%;
+}
+/* End Hero Teaser Styles */
